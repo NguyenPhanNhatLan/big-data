@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments / Dependencies
+.bigdata/
+bigdata/
+ENV/
+__pypackages__/
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Coverage / Logs / Data
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Project specific
+db.sqlite3
+.env
