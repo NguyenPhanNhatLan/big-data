@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 
 # Environments / Dependencies
+.venv-spark/
 .bigdata/
 bigdata/
 ENV/
@@ -21,3 +22,22 @@ htmlcov/
 # Project specific
 db.sqlite3
 .env
+
+# Spark / Hadoop
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Training outputs
+cluster_training/
+local_training/
+
+# Spark cache
+*.crc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local model outputs
+models/
+output/
